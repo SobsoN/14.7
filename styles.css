@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+	background-color: #6f14af;
+	margin: 0 auto;
+}
+
+form {
+	max-width: 700px;
+	margin: 30px auto;
+}
+
+form input {
+	display: block;
+	width: 100%;
+	padding: 1rem;
+	border: none;
+	margin: 5px 0;
+}
+
+form button {
+	border: none;
+	border-radius: 10%;
+	text-transform: uppercase;
+	padding: 10px 30px;
+	margin-top: 10px;
+	background-color: #721446;
+	font-weight: bold;
+	color: #fff;
+	margin-left: 75%;
+}
+
+.contactsList {
+	display: flex;
+	justify-content: space-around;
+}
+
+.contactItem {
+	text-align: center;
+	background-color: #721446;
+	width: 25%;
+	border-radius: 5%;
+	padding: 1rem;
+}
+
+.contactImage {
+  width: 50%;
+}
+
+.contactLabel{
+	color: #fff;
+	margin-bottom: .3rem;
+}
+
+.contactEmail {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+
+}
